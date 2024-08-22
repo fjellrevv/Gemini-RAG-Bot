@@ -9,7 +9,7 @@ from langchain.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 
 # Токен бота
-bot = telebot.TeleBot("7024267014:AAFst9UtDkDV0o9R-Hr8FdrU6ZtBMGukRf0", parse_mode=None)
+bot = telebot.TeleBot("", parse_mode=None)
 
 command = "start"
 
